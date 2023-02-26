@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Mynerve', cursive;
+}
+
+canvas{ 
+    position: absolute; 
+    border: 4px solid rgb(7, 7, 11);
+}
+
+.navbar{
+    height: 8vh;
+    margin-bottom: 6vh;
+    background-color: rgba(9, 9, 9, 0.32);
+    padding-top: 20px;
+    
+}
+
+.newPostCard{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(205, 230, 230);
+    
+}
+
+.addPost{
+    display: flex;
+    padding: 50px;
+    background-color: rgba(26, 25, 25, 0.144);
+    border-radius: 60px;
+    height: 24vh;
+}
+
+.postForm{
+    display: flex;
+    flex-direction: column;
+
+}
+.postInput{
+    
+    height: 40px;
+    border:none;
+    margin-bottom: 10px;
+    font-size: large;
+    padding-left: 15px;
+}
+.avatar{
+    width: 120px;
+    height: 120px;
+    border-radius: 30%;
+    margin-right: 30px;
+
+}
+
+label{
+    display: flex;
+    align-items: center;  
+}
+
+#icon{
+    width: 8vh;
+    cursor: pointer;
+}
+
+.pic{
+    height: calc(100vh-8vh);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   
+    
+}
+
+button{
+    all:unset;
+    cursor: pointer;
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 20px;
+    max-width: max-content;
+    font-size: larger;
+    text-align: center;
+    height: 20px;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    height:100px;
+    margin-top: 5vh;
+      
+}
+
+
+
+
+ #no:hover{
+   
+        position: relative;
+        transition: transform 0.8s ease-in-out;
+        transform: rotate(360deg);
+       
+      }
+
+      
+ 
+      #no:hover::after{
+        content: "Try Learning something new 🫶";
+      }
